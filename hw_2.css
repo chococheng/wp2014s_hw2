@@ -1,0 +1,114 @@
+body{
+	background-image: url(http://subtlepatterns.com/patterns/foggy_birds.png);
+}
+h1,h2,h3{
+	font-family: 'Allerta', sans-serif;
+}
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2em;
+}
+h3{
+	font-size: 1.3em;
+}
+header{
+	margin-top:35px;
+	color: #FFFFFF;
+	border-top: solid 1px #F7F1E8;
+	background-image: url(http://subtlepatterns.com/patterns/tweed.png);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+header h1{
+	margin-top:30px;
+	margin-left: 35px;
+	text-shadow: 0px 2px 1px #3F372B;
+}
+#top_nav{
+	border:solid 1px #FFFFFF;
+	height:60px;
+	background-image: url(http://subtlepatterns.com/patterns/food.png);
+
+}
+.nav_list{
+	list-style: none;
+	display:inline-block;
+	margin-left:50px;
+
+}
+#top_nav ul{
+	margin-top:15px;
+}
+.nav_list a{
+	font-size: 1.5em;
+	padding: 10px;
+	text-decoration: none;
+	color:black;
+
+}
+.nav_list a:hover{
+	background-color: #f4a460;
+}
+.main{
+	background-color: #fffff0;
+	
+}
+
+.content{
+	padding: 45px 35px 80px 35px;
+	-webkit-box-sizing:border-box;
+	
+}
+.sidebar{
+	padding: 45px 35px 80px 10px;
+	-webkit-box-sizing:border-box;
+	 
+}
+.intro{
+	display:block;
+	list-style: none;
+	font-size: 1.2em;
+
+}
+.intro:hover{
+	opacity: 0.6;
+	background-color: #fffff0;
+	
+}
+.intro:nth-child(odd){
+	background-color: #DDFF77;
+}
+.intro:nth-child(even){
+	background-color: #FFFF77;
+}
+#intro{
+	line-height:2.2em;
+}
+
+img:hover{
+	opacity: 0.7;
+
+}
+#foot{
+	-webkit-box-sizing:border-box;
+	padding:10px;
+	text-align: right;
+	background-image: url(http://subtlepatterns.com/patterns/tweed.png);
+	color:#FFFFFF;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px
+
+}
+.event{
+	font-family: 'Allerta', sans-serif;
+	font-size: 1.5em;
+}
+input[type=submit]{
+	padding:5px 15px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
